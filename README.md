@@ -1,4 +1,4 @@
-Script for gathering temp and humidity readings from AS2303 in a format that Prometheus can process.
+Script for gathering temp and humidity readings from AS2302 in a format that Prometheus can process.
 
 
 ###Installation:###
@@ -13,7 +13,7 @@ sudo python setup.py install
 ###Example output###
 
 ```
-as_2302_temp{node="sensor.example.com",location="somewhere"} 22.3
-as_2302_humidity{node="sensor.example.com",location="somewhere"} 35.3
-as_2302_updated_timestamp{node="sensor.example.com"} 1479072202
+node_sensor_temp{node="sensor.example.com",location="somewhere",sensor="am2302"} 22.3
+node_sensor_humidity{node="sensor.example.com",location="somewhere",sensor="am2302"} 35.3
+node_sensor_updated_timestamp{node="sensor.example.com"} 1479072202
 ```
