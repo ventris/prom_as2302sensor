@@ -7,6 +7,7 @@ Clone the repo
 ```bash
 git clone https://github.com/adafruit/Adafruit_Python_DHT.git
 cd Adafruit_Python_DHT
+```
 
 Install dependencies
 ```bash
